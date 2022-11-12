@@ -40,7 +40,7 @@ public class newmain {
 	public void tituloprueba() {
 		WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        /*Esta es la dirección en mi computadora, se puede cambiar a otra*/
+        /*Esta es la dirección en mi computadora, se puede cambiar a la ubicación donde este el HTML en su sistema*/
         driver.get("file:///C:/Users/Chuber/eclipse-workspace/testing/src/main/resources/archivo_prueba.html");
         
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -53,7 +53,7 @@ public class newmain {
 	public void textoprueba() {
 		WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        /*Esta es la dirección en mi computadora, se puede cambiar a otra*/
+        /*Esta es la dirección en mi computadora, se puede cambiar a la ubicación donde este el HTML en su sistema*/
         driver.get("file:///C:/Users/Chuber/eclipse-workspace/testing/src/main/resources/archivo_prueba.html");
         
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -70,7 +70,7 @@ public class newmain {
 	public void radioprueba() {
 		WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        /*Esta es la dirección en mi computadora, se puede cambiar a otra*/
+        /*Esta es la dirección en mi computadora, se puede cambiar a la ubicación donde este el HTML en su sistema*/
         driver.get("file:///C:/Users/Chuber/eclipse-workspace/testing/src/main/resources/archivo_prueba.html");
         
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -96,7 +96,7 @@ public class newmain {
 	public void fechaprueba() {
 		WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        /*Esta es la dirección en mi computadora, se puede cambiar a otra*/
+        /*Esta es la dirección en mi computadora, se puede cambiar a la ubicación donde este el HTML en su sistema*/
         driver.get("file:///C:/Users/Chuber/eclipse-workspace/testing/src/main/resources/archivo_prueba.html");
         
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
